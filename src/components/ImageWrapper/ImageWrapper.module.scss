@@ -1,0 +1,11 @@
+.wrapper {
+    overflow: hidden;
+    position: relative;
+
+    & > * {
+        width: inherit;
+        height: inherit;
+        object-fit: cover;
+        object-position: center;
+    }
+}
